@@ -1,0 +1,38 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'flowable-modeler-study'
+version = '1.0-SNAPSHOT'
+
+description = """"""
+
+sourceCompatibility = 1.5
+targetCompatibility = 1.5
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+}
+
+
+
+repositories {
+        
+     maven { url "http://maven.aliyun.com/nexus/content/groups/public" }
+}
+dependencies {
+    compile group: 'org.flowable', name: 'flowable-spring-boot-starter-rest', version:'6.4.1'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version:'2.1.3.RELEASE'
+    compile group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version:'1.3.1'
+    compile group: 'log4j', name: 'log4j', version:'1.2.17'
+    compile group: 'com.alibaba', name: 'fastjson', version:'1.2.46'
+    compile(group: 'mysql', name: 'mysql-connector-java', version:'5.1.47') {
+exclude(module: 'protobuf-java')
+    }
+    compile group: 'com.alibaba', name: 'druid-spring-boot-starter', version:'1.1.10'
+    compile group: 'org.flowable', name: 'flowable-ui-modeler-conf', version:'6.4.1'
+    compile group: 'org.flowable', name: 'flowable-ui-task-conf', version:'6.4.1'
+    compile group: 'org.flowable', name: 'flowable-ui-admin-conf', version:'6.4.1'
+    compile group: 'org.flowable', name: 'flowable-ui-idm-conf', version:'6.4.1'
+    compile group: 'com.spring4all', name: 'swagger-spring-boot-starter', version:'1.9.0.RELEASE'
+    compile group: 'org.projectlombok', name: 'lombok', version:'1.18.6'
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version:'2.1.3.RELEASE'
+}
