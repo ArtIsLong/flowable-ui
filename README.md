@@ -10,7 +10,7 @@ Flowable官方提供的五个war包
 | `flowable-admin`   | 管理应用。让具有管理员权限的用户可以查询BPMN、DMN、Form及Content引擎，并提供了许多选项用于修改流程实例、任务、作业等。管理应用通过REST API连接至引擎，并与Flowable Task应用及Flowable REST应用一同部署。 | http://suo.im/620z1q |
 | `flowable-rest`    | Flowable页面包含的常用REST API                               |                        |
 
-在线体验账号：**admin/123**
+在线体验账号：**admin/123** (<font color="red">个人服务器，配置较低，仅供体验，请勿对应用进行压测</font>)
 
 **先访问idm，使用体验账号登录后，再去访问modeler，task，admin其他模块**
 
