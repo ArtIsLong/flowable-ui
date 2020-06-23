@@ -474,19 +474,19 @@ url: FlowableAdmin.webContextRoot + '/app/
 
 > http://localhost:8081/idm/
 
-![flowable_idm](https://upload-images.jianshu.io/upload_images/5688362-17b8a05864b7a40b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![flowable_idm](https://artislong.oss-cn-hangzhou.aliyuncs.com/images/flowable/flowable_idm.png)
 
 > http://localhost:8081/modeler/
 
-![flowable_modeler](https://upload-images.jianshu.io/upload_images/5688362-bd259f559420789c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![flowable_modeler](https://artislong.oss-cn-hangzhou.aliyuncs.com/images/flowable/flowable_modeler.png)
 
 > http://localhost:8081/task/
 
-![flowable_task](https://upload-images.jianshu.io/upload_images/5688362-fc6dfd540a9a3d54.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![flowable_task](https://artislong.oss-cn-hangzhou.aliyuncs.com/images/flowable/flowable_task.png)
 
 > http://localhost:8081/admin/
 
-![flowable_admin](https://upload-images.jianshu.io/upload_images/5688362-2d1072782ca19155.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![flowable_admin](https://artislong.oss-cn-hangzhou.aliyuncs.com/images/flowable/flowable_admin.png)
 
 ------
 
